@@ -1087,7 +1087,9 @@ def print_as_pdf(request, stid2):
         }
 
     
-    template_path = 'templates\printpdf.html'  # Update with the actual path to your HTML template.
+    # template_path = 'templates\printpdf.html'  # Update with the actual path to your HTML template.
+    template_path = 'templates/printpdf.html'
+
 
     # Create a PDF response
     response = HttpResponse(content_type='application/pdf')

@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -174,9 +175,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'farzifurniturestore@gmail.com'  
-EMAIL_HOST_PASSWORD = 'lqkeqctzneplylyw'  
-DEFAULT_FROM_EMAIL = 'farzifurniturestore@gmail.com'
+EMAIL_HOST_USER = 'edxfr3q@gmail.com'  
+EMAIL_HOST_PASSWORD = 'mkzdmckbuujxvemm'  
+DEFAULT_FROM_EMAIL = 'edxfr3q@gmail.com'
 
 RAZOR_KEY_ID = 'rzp_test_fjqYIUpj3jhcLp'
 RAZOR_KEY_SECRET = 'uoduwdbq9Ha6QCYcXqO7fVGK'
